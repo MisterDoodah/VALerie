@@ -1,8 +1,18 @@
 # Changelog
 
+## v0.1.1 - VALerie Branding
+
+Renamed the project to VALerie: Value Engine Repository and Insights Engine.
+
+Includes:
+
+- Updated README title and project identity.
+- Updated package name and description.
+- Kept the value-realization model, demo data, and rollup behavior intact.
+
 ## v0.1.0 - Concept Baseline
 
-Initial public concept for the Enterprise AI Value Engine.
+Initial public concept for VALerie, the Value Engine Repository and Insights Engine.
 
 Includes:
 

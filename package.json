@@ -1,11 +1,11 @@
 {
-  "name": "enterprise-ai-value-engine",
-  "version": "0.1.0",
+  "name": "valerie",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "scripts": {
     "rollup": "node src/rollup.js"
   },
-  "description": "A lightweight demo of an enterprise AI success value-realization operating model.",
+  "description": "VALerie: Value Engine Repository and Insights Engine for enterprise AI value realization.",
   "license": "MIT"
 }

@@ -1,11 +1,13 @@
-# Enterprise AI Value Engine
+# VALerie
 
-**Current version:** `v0.1.0`  
+**Current version:** `v0.1.1`  
 **Project status:** Concept demo and evolving side project
+
+**VALerie** stands for **Value Engine Repository and Insights Engine**.
 
 Enterprise AI is moving from experimentation to operating change. That shift creates a measurement problem: customers, sellers, and success teams all need a shared way to understand whether AI is technically ready, actually adopted, and creating measurable value. 🚀
 
-This project is a lightweight demo of an AI value-realization engine. It uses fictional customer data to model the operating rhythm an enterprise AI team would need after a sale: identify readiness gaps, track adoption depth, quantify value, surface risks, and generate leadership rollups.
+VALerie is a lightweight demo of an AI value-realization engine. It uses fictional customer data to model the operating rhythm an enterprise AI team would need after a sale: identify readiness gaps, track adoption depth, quantify value, surface risks, and generate leadership rollups.
 
 ## Why This Exists 💡
 
@@ -150,6 +152,7 @@ Current release:
 
 | Version | Focus | What changed |
 | --- | --- | --- |
+| `v0.1.1` | VALerie branding | Renamed the project to VALerie and clarified the Value Engine Repository and Insights Engine identity |
 | `v0.1.0` | Concept baseline | README, fictional customer portfolio, scoring model, and leadership rollup script |
 
 Planned versions:
