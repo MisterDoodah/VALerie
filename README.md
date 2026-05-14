@@ -1,10 +1,10 @@
 # Enterprise AI Value Engine
 
-Enterprise AI is moving from experimentation to operating change. That shift creates a measurement problem: customers, sellers, and success teams all need a shared way to understand whether AI is technically ready, actually adopted, and creating measurable value.
+Enterprise AI is moving from experimentation to operating change. That shift creates a measurement problem: customers, sellers, and success teams all need a shared way to understand whether AI is technically ready, actually adopted, and creating measurable value. 🚀
 
 This project is a lightweight demo of an AI value-realization engine. It uses fictional customer data to model the operating rhythm an enterprise AI team would need after a sale: identify readiness gaps, track adoption depth, quantify value, surface risks, and generate leadership rollups.
 
-## Why This Exists
+## Why This Exists 💡
 
 Enterprise AI adoption is not only a deployment problem. It is an operating model problem.
 
@@ -15,13 +15,13 @@ Many organizations can get an AI pilot started. Fewer can answer the harder ques
 - Where is measurable value showing up through time saved, cycle-time reduction, risk reduction, or revenue / cost impact?
 - What repeated customer friction should inform product and field strategy?
 
-The goal of this demo is to make that operating model visible.
+The goal of this demo is to make that operating model visible and easier for each stakeholder to act on.
 
-## Three Personas
+## Three Personas 👥
 
 The engine is designed around three people who care about AI value from different angles.
 
-### 1. The Customer AI Owner
+### 1. The Customer AI Owner 🧭
 
 This is the person inside the customer organization responsible for making AI work across teams. They may sit in transformation, operations, IT, data, product, or a business function.
 
@@ -35,7 +35,7 @@ They need to know:
 
 For this persona, the engine should become an internal command center for AI adoption.
 
-### 2. The Salesperson Who Sold The AI
+### 2. The Salesperson Who Sold The AI 🤝
 
 This is the account executive or commercial leader who helped the customer make the initial AI investment.
 
@@ -49,7 +49,7 @@ They need to know:
 
 For this persona, the engine connects the sales promise to the customer reality after the contract is signed.
 
-### 3. The Success Resource Alongside The Customer
+### 3. The Success Resource Alongside The Customer 🛠️
 
 This is the AI success engineer, technical success manager, solutions architect, value engineer, or post-sale technical resource partnering with the customer.
 
@@ -63,7 +63,7 @@ They need to know:
 
 For this persona, the engine becomes the working rhythm for adoption, value, technical readiness, and product feedback.
 
-## Shared Operating Model
+## Shared Operating Model ⚙️
 
 The three personas should not run separate versions of the truth. The customer owner, salesperson, and success resource need a shared model with different views.
 
@@ -74,15 +74,36 @@ This demo organizes that model around four questions:
 3. Value: is usage turning into measurable business impact?
 4. Feedback: what risks, blockers, and product signals should shape the next action?
 
-## What The Demo Shows
+## What The Demo Shows 📊
 
 - A portfolio view of enterprise customers with readiness, adoption, and value scores.
 - A simple scoring model for AI success health.
-- Dummy account data for enterprise use cases across financial services, healthcare, retail, manufacturing, software, energy, and logistics.
+- Dummy account data for enterprise use cases across 12 fictional customers, 12 industries, multiple market-size bands, and employee counts ranging from 9,200 to 142,000.
 - A weekly leadership rollup that summarizes wins, risks, next-best actions, and product feedback themes.
 - A foundation for persona-specific views across customer ownership, sales, and success.
 
-## Current Demo Scope
+## Demo Customer Portfolio 🏢
+
+The demo data intentionally spans a varied enterprise portfolio:
+
+| Customer | Industry | Market size | Market cap | Employees |
+| --- | --- | --- | --- | --- |
+| Apex Bank | Commercial Banking | Global enterprise | $68.4B | 43,800 |
+| Northstar Health | Integrated Healthcare Delivery | National enterprise | $22.1B | 58,700 |
+| Atlas Retail | Omnichannel Retail | Global enterprise | $112.3B | 142,000 |
+| Horizon Insurance | Property and Casualty Insurance | National enterprise | $17.8B | 26,700 |
+| Forge Manufacturing | Industrial Manufacturing | Global enterprise | $34.6B | 31,500 |
+| Nimbus Software | B2B SaaS | Public digital-native enterprise | $28.9B | 9,200 |
+| Meridian Energy | Energy and Utilities | Regional enterprise | $12.6B | 21,300 |
+| BluePeak Logistics | Logistics and Supply Chain | Global enterprise | $19.4B | 54,400 |
+| Cobalt Media Group | Media and Entertainment | Mid-market enterprise | $4.7B | 11,800 |
+| Summit Telecom | Telecommunications | Global enterprise | $52.3B | 73,400 |
+| Verdant Pharma | Life Sciences and Pharmaceuticals | Global enterprise | $76.2B | 48,900 |
+| Ironwood Public Sector | Public Sector | Large government agency | Not publicly traded | 17,600 |
+
+These are deliberately fictional, randomized company profiles. The point is to create enough variation to test how the value engine behaves across large regulated enterprises, digital-native companies, public-sector organizations, and mid-market enterprise accounts.
+
+## Current Demo Scope 🧪
 
 The current version is intentionally small:
 
@@ -96,24 +117,20 @@ Run the rollup:
 npm run rollup
 ```
 
-## Demo Data Principles
+## Demo Data Principles 🧬
 
-The customer data is fictional and intentionally simple. It is meant to show the shape of the operating model, not represent real customer information.
+The customer data is fictional. It is meant to show the shape of the operating model, not represent real customer information.
 
 The sample dataset includes:
 
-- Customer segment
-- Primary AI use case
-- Enabled AI capabilities
-- Readiness score
-- Adoption score
-- Value confidence score
-- Estimated annual value
-- Top risk
-- Next-best action
-- Product feedback themes
+- Account context: segment, industry, region, market size, market cap, employee count, annual revenue, contract value, renewal date, relationship stage, and deployment phase.
+- Ownership context: executive sponsor, primary internal owner, primary use case, secondary use cases, enabled capabilities, and target personas.
+- Success signals: readiness score, adoption score, value-confidence score, weekly active users, licensed users, usage trend, measured outcomes, and estimated annual value.
+- Operating rhythm inputs: top risk, blockers, next-best action, product feedback, and a synthetic customer quote.
 
-## Where This Could Go
+The current sample set includes 12 fictional customers across commercial banking, healthcare, retail, insurance, manufacturing, software, energy, logistics, media, telecommunications, life sciences, and public sector.
+
+## Where This Could Go 🧱
 
 The next version should make the three-persona model more explicit:
 
@@ -132,7 +149,7 @@ Additional build ideas:
 - Product feedback clustering.
 - Demo video showing an AI-assisted development workflow modifying the scoring model and generating a new rollup.
 
-## Next Build Steps
+## Next Build Steps ✅
 
 - Add persona-specific views for customer owner, salesperson, and success resource.
 - Add a visual dashboard.

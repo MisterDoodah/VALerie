@@ -3,112 +3,734 @@
     "id": "apex-bank",
     "name": "Apex Bank",
     "segment": "Financial Services",
+    "region": "North America",
+    "employeeCount": 43800,
+    "annualRevenue": 18500000000,
+    "relationshipStage": "expansion",
+    "deploymentPhase": "scaled-adoption",
+    "contractValue": 2400000,
+    "renewalDate": "2026-11-30",
+    "executiveSponsor": "Chief Data Officer",
+    "primaryOwner": "AI Success Lead",
     "primaryUseCase": "Analyst workflow acceleration",
-    "capabilities": ["Enterprise AI Workspace", "Connectors", "Custom AI Assistants"],
+    "secondaryUseCases": [
+      "Risk committee prep",
+      "Commercial banking research",
+      "Policy Q&A"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Relationship managers",
+      "Risk analysts",
+      "Investment research analysts"
+    ],
     "readinessScore": 86,
     "adoptionScore": 71,
     "valueConfidenceScore": 78,
+    "weeklyActiveUsers": 4100,
+    "licensedUsers": 8000,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Analyst research cycle time",
+        "baseline": "4.5 hours per request",
+        "current": "2.7 hours per request",
+        "impact": "40% faster research turnaround"
+      },
+      {
+        "metric": "Policy lookup deflection",
+        "baseline": "0% AI-assisted",
+        "current": "31% AI-assisted",
+        "impact": "Reduced internal support tickets"
+      }
+    ],
     "estimatedAnnualValue": 2800000,
     "topRisk": "Data-access approvals are complete for priority teams but not yet standardized across regions.",
+    "blockers": [
+      "Regional data governance variance",
+      "Connector approval latency"
+    ],
     "nextBestAction": "Create repeatable connector approval playbook for regional business units.",
-    "productFeedback": ["More granular connector usage analytics", "Admin-facing workflow templates"]
+    "productFeedback": [
+      "More granular connector usage analytics",
+      "Admin-facing workflow templates"
+    ],
+    "customerQuote": "The value is obvious when the workspace has the right data. We need the rollout path to feel repeatable.",
+    "industry": "Commercial Banking",
+    "marketSize": "Global enterprise",
+    "marketCap": 68400000000,
+    "marketCapBand": "Mega cap"
   },
   {
     "id": "northstar-health",
     "name": "Northstar Health",
     "segment": "Healthcare",
+    "region": "North America",
+    "employeeCount": 58700,
+    "annualRevenue": 9800000000,
+    "relationshipStage": "pilot",
+    "deploymentPhase": "governed-pilot",
+    "contractValue": 780000,
+    "renewalDate": "2026-09-15",
+    "executiveSponsor": "SVP Clinical Operations",
+    "primaryOwner": "Solutions Architect",
     "primaryUseCase": "Clinical operations knowledge assistant",
-    "capabilities": ["Enterprise AI Workspace", "Custom AI Assistants"],
+    "secondaryUseCases": [
+      "Shift handoff summaries",
+      "Policy retrieval",
+      "Care team FAQ"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Clinical operations leaders",
+      "Care coordinators",
+      "Compliance reviewers"
+    ],
     "readinessScore": 74,
     "adoptionScore": 62,
     "valueConfidenceScore": 59,
+    "weeklyActiveUsers": 920,
+    "licensedUsers": 2400,
+    "usageTrend": "flat",
+    "measuredOutcomes": [
+      {
+        "metric": "Operations policy search time",
+        "baseline": "18 minutes",
+        "current": "7 minutes",
+        "impact": "Faster answers for care coordination teams"
+      }
+    ],
     "estimatedAnnualValue": 1100000,
     "topRisk": "Governance review is slowing expansion beyond the initial operations team.",
+    "blockers": [
+      "PHI handling policy",
+      "Compliance sign-off queue"
+    ],
     "nextBestAction": "Run security and compliance office hours with clinical ops sponsors.",
-    "productFeedback": ["Healthcare governance examples", "Better audit exports for regulated teams"]
+    "productFeedback": [
+      "Healthcare governance examples",
+      "Better audit exports for regulated teams"
+    ],
+    "customerQuote": "The clinical ops team wants this, but compliance needs a clearer pattern to approve it.",
+    "industry": "Integrated Healthcare Delivery",
+    "marketSize": "National enterprise",
+    "marketCap": 22100000000,
+    "marketCapBand": "Large cap"
   },
   {
     "id": "atlas-retail",
     "name": "Atlas Retail",
     "segment": "Retail",
+    "region": "North America",
+    "employeeCount": 142000,
+    "annualRevenue": 27600000000,
+    "relationshipStage": "expansion",
+    "deploymentPhase": "scaled-adoption",
+    "contractValue": 3100000,
+    "renewalDate": "2027-01-31",
+    "executiveSponsor": "Chief Digital Officer",
+    "primaryOwner": "Customer Success Manager",
     "primaryUseCase": "Merchandising and support automation",
-    "capabilities": ["Enterprise AI Workspace", "Connectors", "Custom AI Assistants"],
+    "secondaryUseCases": [
+      "Store ops assistant",
+      "Product content generation",
+      "Support macros"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Merchandising managers",
+      "Store operations leaders",
+      "Support agents"
+    ],
     "readinessScore": 91,
     "adoptionScore": 80,
     "valueConfidenceScore": 83,
+    "weeklyActiveUsers": 7600,
+    "licensedUsers": 12000,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Merchandising brief creation",
+        "baseline": "3 days",
+        "current": "1.5 days",
+        "impact": "50% faster seasonal planning cycles"
+      },
+      {
+        "metric": "Support article draft time",
+        "baseline": "45 minutes",
+        "current": "16 minutes",
+        "impact": "Higher support content throughput"
+      }
+    ],
     "estimatedAnnualValue": 3400000,
     "topRisk": "Strong adoption in merchandising, but support workflows need more manager enablement.",
+    "blockers": [
+      "Support manager enablement",
+      "Inconsistent workflow prompts"
+    ],
     "nextBestAction": "Package merchandising wins into support-team enablement session.",
-    "productFeedback": ["Reusable retail workflow examples", "Cross-team adoption benchmarking"]
+    "productFeedback": [
+      "Reusable retail workflow examples",
+      "Cross-team adoption benchmarking"
+    ],
+    "customerQuote": "Merchandising is already treating this like part of the weekly operating rhythm.",
+    "industry": "Omnichannel Retail",
+    "marketSize": "Global enterprise",
+    "marketCap": 112300000000,
+    "marketCapBand": "Mega cap"
   },
   {
     "id": "horizon-insurance",
     "name": "Horizon Insurance",
     "segment": "Insurance",
+    "region": "North America",
+    "employeeCount": 26700,
+    "annualRevenue": 7200000000,
+    "relationshipStage": "at-risk",
+    "deploymentPhase": "early-adoption",
+    "contractValue": 950000,
+    "renewalDate": "2026-08-31",
+    "executiveSponsor": "Head of Claims Transformation",
+    "primaryOwner": "AI Success Lead",
     "primaryUseCase": "Claims workflow acceleration",
-    "capabilities": ["Enterprise AI Workspace", "Connectors"],
+    "secondaryUseCases": [
+      "Adjuster coaching",
+      "Coverage policy lookup",
+      "Claim summary drafting"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors"
+    ],
+    "personas": [
+      "Claims adjusters",
+      "Claims managers",
+      "Operations analysts"
+    ],
     "readinessScore": 68,
     "adoptionScore": 54,
     "valueConfidenceScore": 51,
+    "weeklyActiveUsers": 640,
+    "licensedUsers": 3000,
+    "usageTrend": "down",
+    "measuredOutcomes": [
+      {
+        "metric": "Claim summary drafting",
+        "baseline": "24 minutes",
+        "current": "18 minutes",
+        "impact": "Early productivity signal, not yet scaled"
+      }
+    ],
     "estimatedAnnualValue": 900000,
     "topRisk": "Claims leaders see value but frontline adoption remains shallow.",
+    "blockers": [
+      "Frontline change management",
+      "Lack of manager-level adoption goals"
+    ],
     "nextBestAction": "Identify three high-frequency claims workflows and build guided prompt patterns.",
-    "productFeedback": ["Workflow-specific onboarding templates", "Team-level adoption nudges"]
+    "productFeedback": [
+      "Workflow-specific onboarding templates",
+      "Team-level adoption nudges"
+    ],
+    "customerQuote": "We have pockets of believers, but we have not made it easy enough for the average adjuster.",
+    "industry": "Property and Casualty Insurance",
+    "marketSize": "National enterprise",
+    "marketCap": 17800000000,
+    "marketCapBand": "Large cap"
   },
   {
     "id": "forge-manufacturing",
     "name": "Forge Manufacturing",
     "segment": "Manufacturing",
+    "region": "North America",
+    "employeeCount": 31500,
+    "annualRevenue": 12400000000,
+    "relationshipStage": "implementation",
+    "deploymentPhase": "workflow-buildout",
+    "contractValue": 1350000,
+    "renewalDate": "2026-12-15",
+    "executiveSponsor": "VP Service Operations",
+    "primaryOwner": "Solutions Architect",
     "primaryUseCase": "Field service troubleshooting",
-    "capabilities": ["Enterprise AI Workspace", "Connectors", "Custom AI Assistants"],
+    "secondaryUseCases": [
+      "Parts lookup",
+      "Technician onboarding",
+      "Service report drafting"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Field technicians",
+      "Service managers",
+      "Parts specialists"
+    ],
     "readinessScore": 79,
     "adoptionScore": 66,
     "valueConfidenceScore": 70,
+    "weeklyActiveUsers": 1500,
+    "licensedUsers": 4200,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Mean time to troubleshoot",
+        "baseline": "72 minutes",
+        "current": "54 minutes",
+        "impact": "25% faster issue resolution in pilot region"
+      }
+    ],
     "estimatedAnnualValue": 1700000,
     "topRisk": "Field teams need offline-ready knowledge workflows and clearer support escalation.",
+    "blockers": [
+      "Mobile workflow design",
+      "Knowledge base completeness"
+    ],
     "nextBestAction": "Run a technician workflow sprint with service operations leadership.",
-    "productFeedback": ["Field-service examples", "Better mobile workflow guidance"]
+    "productFeedback": [
+      "Field-service examples",
+      "Better mobile workflow guidance"
+    ],
+    "customerQuote": "The field teams care less about AI and more about whether it helps during a live service call.",
+    "industry": "Industrial Manufacturing",
+    "marketSize": "Global enterprise",
+    "marketCap": 34600000000,
+    "marketCapBand": "Large cap"
   },
   {
     "id": "nimbus-software",
     "name": "Nimbus Software",
     "segment": "Digital Native",
+    "region": "North America",
+    "employeeCount": 9200,
+    "annualRevenue": 2100000000,
+    "relationshipStage": "expansion",
+    "deploymentPhase": "scaled-adoption",
+    "contractValue": 2900000,
+    "renewalDate": "2027-03-31",
+    "executiveSponsor": "Chief Technology Officer",
+    "primaryOwner": "Technical Account Director",
     "primaryUseCase": "AI-assisted engineering productivity",
-    "capabilities": ["Enterprise AI Workspace", "AI Coding Assistant", "Connectors"],
+    "secondaryUseCases": [
+      "Incident review",
+      "Product spec drafting",
+      "Support escalation summaries"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "AI Coding Assistant",
+      "Connectors"
+    ],
+    "personas": [
+      "Software engineers",
+      "Product managers",
+      "Support engineers"
+    ],
     "readinessScore": 94,
     "adoptionScore": 88,
     "valueConfidenceScore": 86,
+    "weeklyActiveUsers": 5400,
+    "licensedUsers": 6500,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Engineering task cycle time",
+        "baseline": "6.2 days",
+        "current": "4.9 days",
+        "impact": "21% faster completion for selected engineering workflows"
+      },
+      {
+        "metric": "Incident review draft time",
+        "baseline": "3 hours",
+        "current": "55 minutes",
+        "impact": "Faster post-incident learning loop"
+      }
+    ],
     "estimatedAnnualValue": 4200000,
     "topRisk": "Engineering adoption is strong, but product and support teams are lagging.",
+    "blockers": [
+      "Cross-functional workflow ownership",
+      "Product team enablement"
+    ],
     "nextBestAction": "Expand from engineering productivity into product spec and support workflows.",
-    "productFeedback": ["Engineering team reporting", "Repository-level adoption insights"]
+    "productFeedback": [
+      "Engineering team reporting",
+      "Repository-level adoption insights"
+    ],
+    "customerQuote": "Engineering has made this normal. The next unlock is product and support working the same way.",
+    "industry": "B2B SaaS",
+    "marketSize": "Public digital-native enterprise",
+    "marketCap": 28900000000,
+    "marketCapBand": "Large cap"
   },
   {
     "id": "meridian-energy",
     "name": "Meridian Energy",
     "segment": "Energy",
+    "region": "North America",
+    "employeeCount": 21300,
+    "annualRevenue": 15800000000,
+    "relationshipStage": "implementation",
+    "deploymentPhase": "governed-pilot",
+    "contractValue": 1150000,
+    "renewalDate": "2026-10-31",
+    "executiveSponsor": "General Counsel",
+    "primaryOwner": "Customer Success Manager",
     "primaryUseCase": "Regulatory knowledge workflows",
-    "capabilities": ["Enterprise AI Workspace", "Connectors"],
+    "secondaryUseCases": [
+      "Permit review",
+      "Internal policy interpretation",
+      "Board prep"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors"
+    ],
+    "personas": [
+      "Regulatory specialists",
+      "Legal reviewers",
+      "Operations leaders"
+    ],
     "readinessScore": 72,
     "adoptionScore": 59,
     "valueConfidenceScore": 64,
+    "weeklyActiveUsers": 740,
+    "licensedUsers": 2200,
+    "usageTrend": "flat",
+    "measuredOutcomes": [
+      {
+        "metric": "Regulatory memo first draft",
+        "baseline": "2.5 days",
+        "current": "1.8 days",
+        "impact": "Promising drafting acceleration with citation requirements"
+      }
+    ],
     "estimatedAnnualValue": 1300000,
     "topRisk": "Regulatory stakeholders need stronger confidence in source attribution.",
+    "blockers": [
+      "Citation confidence",
+      "Legal review standards"
+    ],
     "nextBestAction": "Design a citation-heavy workflow review with legal and compliance sponsors.",
-    "productFeedback": ["More visible source citations", "Regulatory workflow examples"]
+    "productFeedback": [
+      "More visible source citations",
+      "Regulatory workflow examples"
+    ],
+    "customerQuote": "We can move faster only if reviewers trust exactly where the answer came from.",
+    "industry": "Energy and Utilities",
+    "marketSize": "Regional enterprise",
+    "marketCap": 12600000000,
+    "marketCapBand": "Large cap"
   },
   {
     "id": "bluepeak-logistics",
     "name": "BluePeak Logistics",
     "segment": "Logistics",
+    "region": "North America",
+    "employeeCount": 54400,
+    "annualRevenue": 9200000000,
+    "relationshipStage": "implementation",
+    "deploymentPhase": "early-adoption",
+    "contractValue": 1600000,
+    "renewalDate": "2027-02-28",
+    "executiveSponsor": "COO",
+    "primaryOwner": "AI Success Lead",
     "primaryUseCase": "Operations planning assistant",
-    "capabilities": ["Enterprise AI Workspace", "Connectors", "Custom AI Assistants"],
+    "secondaryUseCases": [
+      "Dispatch briefings",
+      "Exception management",
+      "Customer update drafting"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Dispatch managers",
+      "Route planners",
+      "Customer operations teams"
+    ],
     "readinessScore": 83,
     "adoptionScore": 69,
     "valueConfidenceScore": 73,
+    "weeklyActiveUsers": 2300,
+    "licensedUsers": 5600,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Weekly operations planning prep",
+        "baseline": "5 hours",
+        "current": "3.1 hours",
+        "impact": "38% faster weekly planning cycle"
+      }
+    ],
     "estimatedAnnualValue": 2100000,
     "topRisk": "Dispatch teams need clearer workflow ownership and manager reinforcement.",
+    "blockers": [
+      "Manager enablement",
+      "Workflow handoff clarity"
+    ],
     "nextBestAction": "Create manager-led adoption rhythm tied to weekly operations planning.",
-    "productFeedback": ["Operational planning templates", "Role-based rollout guides"]
+    "productFeedback": [
+      "Operational planning templates",
+      "Role-based rollout guides"
+    ],
+    "customerQuote": "The team likes the assistant most when it is tied directly to the weekly planning meeting.",
+    "industry": "Logistics and Supply Chain",
+    "marketSize": "Global enterprise",
+    "marketCap": 19400000000,
+    "marketCapBand": "Large cap"
+  },
+  {
+    "id": "cobalt-media",
+    "name": "Cobalt Media Group",
+    "segment": "Media",
+    "region": "North America",
+    "employeeCount": 11800,
+    "annualRevenue": 3600000000,
+    "relationshipStage": "pilot",
+    "deploymentPhase": "workflow-buildout",
+    "contractValue": 720000,
+    "renewalDate": "2026-07-31",
+    "executiveSponsor": "Chief Content Officer",
+    "primaryOwner": "Customer Success Manager",
+    "primaryUseCase": "Editorial research and production assistant",
+    "secondaryUseCases": [
+      "Archive search",
+      "Audience brief drafting",
+      "Rights policy Q&A"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Editors",
+      "Researchers",
+      "Content operations"
+    ],
+    "readinessScore": 77,
+    "adoptionScore": 73,
+    "valueConfidenceScore": 68,
+    "weeklyActiveUsers": 1100,
+    "licensedUsers": 1800,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Research brief drafting",
+        "baseline": "90 minutes",
+        "current": "42 minutes",
+        "impact": "Faster pre-production research"
+      }
+    ],
+    "estimatedAnnualValue": 1250000,
+    "topRisk": "Rights-sensitive content workflows need clearer guardrails before broader adoption.",
+    "blockers": [
+      "Rights management policy",
+      "Editorial standards review"
+    ],
+    "nextBestAction": "Co-design rights-safe editorial workflows with content operations.",
+    "productFeedback": [
+      "Content provenance controls",
+      "Editorial workflow examples"
+    ],
+    "customerQuote": "The creative teams are excited, but rights and brand safety need to be baked into the workflow.",
+    "industry": "Media and Entertainment",
+    "marketSize": "Mid-market enterprise",
+    "marketCap": 4700000000,
+    "marketCapBand": "Mid cap"
+  },
+  {
+    "id": "summit-telecom",
+    "name": "Summit Telecom",
+    "segment": "Telecommunications",
+    "region": "EMEA",
+    "employeeCount": 73400,
+    "annualRevenue": 21400000000,
+    "relationshipStage": "at-risk",
+    "deploymentPhase": "early-adoption",
+    "contractValue": 1850000,
+    "renewalDate": "2026-06-30",
+    "executiveSponsor": "VP Customer Operations",
+    "primaryOwner": "Technical Account Director",
+    "primaryUseCase": "Contact center resolution assistant",
+    "secondaryUseCases": [
+      "Agent coaching",
+      "Network issue summaries",
+      "Escalation drafting"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors"
+    ],
+    "personas": [
+      "Contact center agents",
+      "Escalation managers",
+      "Network operations"
+    ],
+    "readinessScore": 63,
+    "adoptionScore": 49,
+    "valueConfidenceScore": 55,
+    "weeklyActiveUsers": 1200,
+    "licensedUsers": 7000,
+    "usageTrend": "down",
+    "measuredOutcomes": [
+      {
+        "metric": "Escalation summary quality",
+        "baseline": "Manual review required",
+        "current": "AI draft accepted 44% of the time",
+        "impact": "Useful signal, but workflow quality is inconsistent"
+      }
+    ],
+    "estimatedAnnualValue": 850000,
+    "topRisk": "Low frontline trust and incomplete knowledge connectors are suppressing usage.",
+    "blockers": [
+      "Knowledge connector quality",
+      "Agent trust",
+      "Regional enablement gaps"
+    ],
+    "nextBestAction": "Reset the pilot around two high-volume contact drivers with cleaner knowledge sources.",
+    "productFeedback": [
+      "Contact-center quality controls",
+      "Connector completeness diagnostics"
+    ],
+    "customerQuote": "Agents will use it when it is right, but one bad answer spreads fast.",
+    "industry": "Telecommunications",
+    "marketSize": "Global enterprise",
+    "marketCap": 52300000000,
+    "marketCapBand": "Mega cap"
+  },
+  {
+    "id": "verdant-pharma",
+    "name": "Verdant Pharma",
+    "segment": "Life Sciences",
+    "region": "Global",
+    "employeeCount": 48900,
+    "annualRevenue": 18700000000,
+    "relationshipStage": "implementation",
+    "deploymentPhase": "governed-pilot",
+    "contractValue": 1450000,
+    "renewalDate": "2026-12-31",
+    "executiveSponsor": "Head of Medical Affairs",
+    "primaryOwner": "Solutions Architect",
+    "primaryUseCase": "Medical affairs knowledge assistant",
+    "secondaryUseCases": [
+      "Study summary drafting",
+      "Scientific literature review",
+      "Field medical FAQ"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Medical science liaisons",
+      "Medical affairs leaders",
+      "Compliance reviewers"
+    ],
+    "readinessScore": 81,
+    "adoptionScore": 58,
+    "valueConfidenceScore": 69,
+    "weeklyActiveUsers": 830,
+    "licensedUsers": 2600,
+    "usageTrend": "flat",
+    "measuredOutcomes": [
+      {
+        "metric": "Study summary first draft",
+        "baseline": "6 hours",
+        "current": "3.8 hours",
+        "impact": "Strong individual productivity, pending compliance expansion"
+      }
+    ],
+    "estimatedAnnualValue": 1600000,
+    "topRisk": "Compliance-approved workflows exist, but field teams are waiting for official enablement.",
+    "blockers": [
+      "Medical/legal review",
+      "Field enablement timing"
+    ],
+    "nextBestAction": "Convert approved workflows into a field medical launch kit.",
+    "productFeedback": [
+      "Life-sciences compliance examples",
+      "Approved-answer workflow controls"
+    ],
+    "customerQuote": "We have the right use cases. The challenge is turning approval into confident field adoption.",
+    "industry": "Life Sciences and Pharmaceuticals",
+    "marketSize": "Global enterprise",
+    "marketCap": 76200000000,
+    "marketCapBand": "Mega cap"
+  },
+  {
+    "id": "ironwood-public-sector",
+    "name": "Ironwood Public Sector",
+    "segment": "Public Sector",
+    "region": "North America",
+    "employeeCount": 17600,
+    "annualRevenue": 0,
+    "relationshipStage": "pilot",
+    "deploymentPhase": "technical-readiness",
+    "contractValue": 620000,
+    "renewalDate": "2027-04-30",
+    "executiveSponsor": "Deputy CIO",
+    "primaryOwner": "AI Success Lead",
+    "primaryUseCase": "Internal service desk knowledge assistant",
+    "secondaryUseCases": [
+      "Policy search",
+      "Procurement FAQ",
+      "Meeting brief generation"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors"
+    ],
+    "personas": [
+      "IT service desk",
+      "Procurement specialists",
+      "Program managers"
+    ],
+    "readinessScore": 58,
+    "adoptionScore": 42,
+    "valueConfidenceScore": 47,
+    "weeklyActiveUsers": 310,
+    "licensedUsers": 1600,
+    "usageTrend": "flat",
+    "measuredOutcomes": [
+      {
+        "metric": "Service desk answer drafting",
+        "baseline": "12 minutes",
+        "current": "9 minutes",
+        "impact": "Early efficiency signal limited by data readiness"
+      }
+    ],
+    "estimatedAnnualValue": 500000,
+    "topRisk": "Procurement and security requirements are delaying production connector access.",
+    "blockers": [
+      "Security review",
+      "Procurement constraints",
+      "Connector access"
+    ],
+    "nextBestAction": "Build a security-readiness checklist with agency IT and procurement leads.",
+    "productFeedback": [
+      "Public-sector deployment checklist",
+      "Security package templates"
+    ],
+    "customerQuote": "The use case is straightforward. The approval path is what needs structure.",
+    "industry": "Public Sector",
+    "marketSize": "Large government agency",
+    "marketCap": null,
+    "marketCapBand": "Not publicly traded"
   }
 ]
