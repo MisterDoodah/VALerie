@@ -1,5 +1,5 @@
 {
-  "name": "openai-enterprise-value-engine",
+  "name": "enterprise-ai-value-engine",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -9,4 +9,3 @@
   "description": "A lightweight demo of an enterprise AI success value-realization operating model.",
   "license": "MIT"
 }
-

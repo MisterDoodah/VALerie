@@ -1,6 +1,6 @@
-# Enterprise AI Success Value Engine
+# Enterprise AI Value Engine
 
-This is a lightweight demo of how an AI Success Engineering team could manage post-sale technical readiness, adoption quality, and value realization for enterprise OpenAI deployments.
+This is a lightweight demo of how an AI success or transformation team could manage post-sale technical readiness, adoption quality, and value realization for enterprise AI deployments.
 
 The project uses dummy customer data to model the operating rhythm I would want for AI Success: identify readiness gaps, track adoption depth, quantify value, surface customer friction, and generate leadership rollups.
 
@@ -10,7 +10,7 @@ Enterprise AI adoption is not only a deployment problem. It is an operating mode
 
 AI Success teams need to know:
 
-- Are customers technically ready to use advanced capabilities such as connectors, Codex, custom GPTs, and governed enterprise workspaces?
+- Are customers technically ready to use advanced capabilities such as connectors, AI coding assistants, custom AI assistants, and governed enterprise workspaces?
 - Is adoption happening in real workflows or only in isolated experiments?
 - Where is measurable value showing up through time saved, cycle-time reduction, risk reduction, or revenue / cost impact?
 - What repeated customer friction should inform product and field strategy?
@@ -24,12 +24,12 @@ AI Success teams need to know:
 
 ## Role Relevance
 
-This demo is designed around the Manager, AI Success Engineers role at OpenAI.
+This demo is designed around enterprise AI success leadership roles where technical adoption, customer readiness, and measurable value all matter.
 
 It maps to two parts of the job description:
 
 - Build scalable programs, playbooks, and operating mechanisms that support long-term customer success.
-- Ensure technical readiness and adoption of advanced OpenAI capabilities while translating adoption into measurable customer outcomes.
+- Ensure technical readiness and adoption of advanced AI capabilities while translating adoption into measurable customer outcomes.
 
 ## Demo Data
 
@@ -40,5 +40,4 @@ The customer data is fictional and intentionally simple. It is meant to show the
 - Add a dashboard UI.
 - Add customer detail pages.
 - Add an executive rollup generator.
-- Record a short Codex demo video showing the app being modified and the rollup updating.
-
+- Record a short AI-assisted development demo showing the app being modified and the rollup updating.
