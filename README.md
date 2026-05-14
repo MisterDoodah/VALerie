@@ -78,7 +78,7 @@ This demo organizes that model around four questions:
 
 - A portfolio view of enterprise customers with readiness, adoption, and value scores.
 - A simple scoring model for AI success health.
-- Dummy account data for enterprise use cases across 12 fictional customers, 12 industries, multiple market-size bands, and employee counts ranging from 9,200 to 142,000.
+- Dummy account data for enterprise use cases across 14 fictional customers, 14 industries, multiple market-size bands, and employee counts ranging from 140 to 142,000.
 - A weekly leadership rollup that summarizes wins, risks, next-best actions, and product feedback themes.
 - A foundation for persona-specific views across customer ownership, sales, and success.
 
@@ -100,8 +100,10 @@ The demo data intentionally spans a varied enterprise portfolio:
 | Summit Telecom | Telecommunications | Global enterprise | $52.3B | 73,400 |
 | Verdant Pharma | Life Sciences and Pharmaceuticals | Global enterprise | $76.2B | 48,900 |
 | Ironwood Public Sector | Public Sector | Large government agency | Not publicly traded | 17,600 |
+| VectorLoop AI | AI Security Software | Venture-backed startup | Private startup | 140 |
+| Lumen Grid Labs | Climate Tech Infrastructure | Growth-stage startup | Private startup | 420 |
 
-These are deliberately fictional, randomized company profiles. The point is to create enough variation to test how the value engine behaves across large regulated enterprises, digital-native companies, public-sector organizations, and mid-market enterprise accounts.
+These are deliberately fictional, randomized company profiles. The point is to create enough variation to test how the value engine behaves across large regulated enterprises, digital-native companies, public-sector organizations, mid-market enterprise accounts, and high-growth startups.
 
 ## Current Demo Scope 🧪
 
@@ -128,7 +130,7 @@ The sample dataset includes:
 - Success signals: readiness score, adoption score, value-confidence score, weekly active users, licensed users, usage trend, measured outcomes, and estimated annual value.
 - Operating rhythm inputs: top risk, blockers, next-best action, product feedback, and a synthetic customer quote.
 
-The current sample set includes 12 fictional customers across commercial banking, healthcare, retail, insurance, manufacturing, software, energy, logistics, media, telecommunications, life sciences, and public sector.
+The current sample set includes 14 fictional customers across commercial banking, healthcare, retail, insurance, manufacturing, software, energy, logistics, media, telecommunications, life sciences, public sector, AI security software, and climate tech infrastructure.
 
 ## Where This Could Go 🧱
 

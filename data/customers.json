@@ -732,5 +732,125 @@
     "marketSize": "Large government agency",
     "marketCap": null,
     "marketCapBand": "Not publicly traded"
+  },
+  {
+    "id": "vectorloop-ai",
+    "name": "VectorLoop AI",
+    "segment": "Startup",
+    "region": "North America",
+    "employeeCount": 140,
+    "annualRevenue": 18000000,
+    "relationshipStage": "pilot",
+    "deploymentPhase": "early-adoption",
+    "contractValue": 180000,
+    "renewalDate": "2026-07-15",
+    "executiveSponsor": "VP Engineering",
+    "primaryOwner": "Founder-led AI Program Owner",
+    "primaryUseCase": "Engineering knowledge and release assistant",
+    "secondaryUseCases": [
+      "Release note drafting",
+      "Customer issue triage",
+      "Internal technical Q&A"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "AI Coding Assistant",
+      "Connectors"
+    ],
+    "personas": [
+      "Software engineers",
+      "Developer advocates",
+      "Customer support engineers"
+    ],
+    "readinessScore": 82,
+    "adoptionScore": 77,
+    "valueConfidenceScore": 72,
+    "weeklyActiveUsers": 92,
+    "licensedUsers": 130,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Release note drafting time",
+        "baseline": "2.5 hours per release",
+        "current": "55 minutes per release",
+        "impact": "Faster release communication for a lean engineering team"
+      }
+    ],
+    "estimatedAnnualValue": 420000,
+    "topRisk": "Usage is concentrated in engineering champions and has not yet crossed into support workflows.",
+    "blockers": [
+      "Founder-led ownership",
+      "Lightweight enablement bandwidth"
+    ],
+    "nextBestAction": "Turn the strongest engineering workflow into a support-ready playbook.",
+    "productFeedback": [
+      "Startup onboarding templates",
+      "Lightweight workspace health summary"
+    ],
+    "customerQuote": "The value is obvious, but we need startup-speed rollout patterns that do not require a full program office.",
+    "industry": "AI Security Software",
+    "marketSize": "Venture-backed startup",
+    "marketCap": null,
+    "marketCapBand": "Private startup"
+  },
+  {
+    "id": "lumen-grid-labs",
+    "name": "Lumen Grid Labs",
+    "segment": "Startup",
+    "region": "North America",
+    "employeeCount": 420,
+    "annualRevenue": 65000000,
+    "relationshipStage": "implementation",
+    "deploymentPhase": "workflow-buildout",
+    "contractValue": 260000,
+    "renewalDate": "2026-10-15",
+    "executiveSponsor": "Chief Operating Officer",
+    "primaryOwner": "Operations Transformation Lead",
+    "primaryUseCase": "Project delivery and field operations assistant",
+    "secondaryUseCases": [
+      "Site report summaries",
+      "Grant application drafting",
+      "Equipment troubleshooting"
+    ],
+    "capabilities": [
+      "Enterprise AI Workspace",
+      "Connectors",
+      "Custom AI Assistants"
+    ],
+    "personas": [
+      "Project managers",
+      "Field operations leads",
+      "Grant operations team"
+    ],
+    "readinessScore": 76,
+    "adoptionScore": 68,
+    "valueConfidenceScore": 74,
+    "weeklyActiveUsers": 210,
+    "licensedUsers": 360,
+    "usageTrend": "up",
+    "measuredOutcomes": [
+      {
+        "metric": "Site report summary cycle time",
+        "baseline": "70 minutes",
+        "current": "28 minutes",
+        "impact": "More consistent reporting without adding operations headcount"
+      }
+    ],
+    "estimatedAnnualValue": 690000,
+    "topRisk": "Fast-growing field teams need clearer governance before broader connector access.",
+    "blockers": [
+      "Field data governance",
+      "Inconsistent project taxonomy"
+    ],
+    "nextBestAction": "Define three approved field-ops workflows before expanding connector access.",
+    "productFeedback": [
+      "Field operations starter kit",
+      "Project taxonomy mapping guidance"
+    ],
+    "customerQuote": "We are growing fast, so the biggest win is helping the team scale without creating process drag.",
+    "industry": "Climate Tech Infrastructure",
+    "marketSize": "Growth-stage startup",
+    "marketCap": null,
+    "marketCapBand": "Private startup"
   }
 ]
