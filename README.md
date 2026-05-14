@@ -1,5 +1,8 @@
 # Enterprise AI Value Engine
 
+**Current version:** `v0.1.0`  
+**Project status:** Concept demo and evolving side project
+
 Enterprise AI is moving from experimentation to operating change. That shift creates a measurement problem: customers, sellers, and success teams all need a shared way to understand whether AI is technically ready, actually adopted, and creating measurable value. 🚀
 
 This project is a lightweight demo of an AI value-realization engine. It uses fictional customer data to model the operating rhythm an enterprise AI team would need after a sale: identify readiness gaps, track adoption depth, quantify value, surface risks, and generate leadership rollups.
@@ -131,6 +134,62 @@ The sample dataset includes:
 - Operating rhythm inputs: top risk, blockers, next-best action, product feedback, and a synthetic customer quote.
 
 The current sample set includes 14 fictional customers across commercial banking, healthcare, retail, insurance, manufacturing, software, energy, logistics, media, telecommunications, life sciences, public sector, AI security software, and climate tech infrastructure.
+
+## Versioning 🧭
+
+This project will evolve in public as a side project about AI consumption value: how companies move from buying AI to proving adoption, workflow change, and business impact.
+
+Versioning will follow a lightweight semantic pattern:
+
+- `v0.x`: concept, data model, rough prototypes, and early thinking.
+- `v1.0`: first usable dashboard with the three-persona model visible.
+- `v1.x`: incremental features, better scoring, better rollups, and improved storytelling.
+- `v2.x`: deeper productized workflows such as benchmark comparisons, richer value models, or simulated customer journeys.
+
+Current release:
+
+| Version | Focus | What changed |
+| --- | --- | --- |
+| `v0.1.0` | Concept baseline | README, fictional customer portfolio, scoring model, and leadership rollup script |
+
+Planned versions:
+
+| Version | Focus | Candidate additions |
+| --- | --- | --- |
+| `v0.2.0` | Persona model | Separate customer, sales, and success views in the data model |
+| `v0.3.0` | Visual dashboard | Portfolio UI with readiness, adoption, value, and risk views |
+| `v0.4.0` | Value narrative | Executive summary generator and LinkedIn-ready example insights |
+| `v1.0.0` | First complete demo | Shareable dashboard, customer detail page, rollup, and short demo video |
+
+## Build And Share Process ✍️
+
+The project is meant to produce both code and thinking. Each meaningful version should create one public artifact and one practical learning.
+
+Working rhythm:
+
+1. Pick a value-realization question.
+   Example: "How do we know AI usage is becoming workflow adoption?"
+
+2. Add or change the model.
+   Update customer data, scoring logic, persona views, rollups, or dashboard behavior.
+
+3. Generate an example insight.
+   Use the fictional portfolio to show what a customer, salesperson, or success resource would do differently.
+
+4. Capture the lesson.
+   Add a short note to the README, changelog, or future `/notes` folder.
+
+5. Share externally when useful.
+   Turn the lesson into a LinkedIn post about AI consumption value, adoption quality, customer success, or operating cadence.
+
+LinkedIn themes this project can support:
+
+- AI consumption value is not the same as AI usage.
+- The customer, seller, and success team need one shared value model.
+- Adoption quality matters more than seat count.
+- Readiness blockers are often operating-model blockers, not product blockers.
+- AI can help success teams move from anecdotal account updates to evidence-backed rollups.
+- The best expansion conversations are earned by measured workflow value.
 
 ## Where This Could Go 🧱
 
