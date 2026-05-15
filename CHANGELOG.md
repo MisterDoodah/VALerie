@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.1.1 - VALerie Branding
+## v0.1.1 - Valerie Branding
 
-Renamed the project to VALerie: Value Engine Repository and Insights Engine.
+Renamed the project to Valerie: Value Engine Repository and Insights Engine.
 
 Includes:
 
@@ -12,7 +12,7 @@ Includes:
 
 ## v0.1.0 - Concept Baseline
 
-Initial public concept for VALerie, the Value Engine Repository and Insights Engine.
+Initial public concept for Valerie, the Value Engine Repository and Insights Engine.
 
 Includes:
 

@@ -6,6 +6,6 @@
   "scripts": {
     "rollup": "node src/rollup.js"
   },
-  "description": "VALerie: Value Engine Repository and Insights Engine for enterprise AI value realization.",
+  "description": "Valerie: Value Engine Repository and Insights Engine for enterprise AI value realization.",
   "license": "MIT"
 }
